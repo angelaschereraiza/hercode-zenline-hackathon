@@ -1,0 +1,372 @@
+{
+  "contexts": {
+    "outdoor": {
+      "targetMarket": "Switzerland",
+      "category": "Swiss Outdoor Retailer",
+      "persona": "Large retailer",
+      "comparisonMarkets": [
+        "US",
+        "Nordics",
+        "Japan",
+        "Korea",
+        "UK"
+      ],
+      "competitors": [
+        "Bächli",
+        "Transa",
+        "Galaxus"
+      ]
+    },
+    "cycling": {
+      "targetMarket": "Switzerland",
+      "category": "Cycling Boutique",
+      "persona": "Boutique buyer",
+      "comparisonMarkets": [
+        "US",
+        "Nordics",
+        "DE",
+        "NL"
+      ],
+      "competitors": [
+        "Galaxus",
+        "Bike24",
+        "Veloplus"
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "gravel-running",
+      "context": [
+        "outdoor",
+        "cycling"
+      ],
+      "name": "Gravel Running Shoes",
+      "subtitle": "Trail-road crossover capsule",
+      "first_observed_market": "US / UK",
+      "trend_stage": "emerging",
+      "urgency": "act_now",
+      "action": "TEST",
+      "confidence": "high",
+      "coverage_status": "absent",
+      "composite_score": 0.86,
+      "scores": {
+        "trend": 0.84,
+        "transferability": 0.91,
+        "opportunity": 0.83,
+        "coverage_gap": 0.9
+      },
+      "explainability": {
+        "why_trending": "Search and specialist media signals are rising across US and UK trail-running communities.",
+        "why_fits_switzerland": "It bridges hiking, trail running and fast day tours, all highly relevant Swiss outdoor use cases.",
+        "why_opportunity_now": "Swiss premium shelves show limited coverage, creating a first-mover capsule opportunity."
+      },
+      "risks": [
+        {
+          "name": "Supplier access",
+          "impact": "High",
+          "probability": "Medium",
+          "mitigation": "Start with brands already distributing in EU/DACH and negotiate small test quantities."
+        },
+        {
+          "name": "Category label may not stick",
+          "impact": "Medium",
+          "probability": "Medium",
+          "mitigation": "Merchandise as trail-road crossover rather than relying only on the gravel label."
+        }
+      ],
+      "monitor_triggers": [
+        "Google Trends CH declines for 3 consecutive months",
+        "Bächli or Transa add equivalent SKUs",
+        "4-week sell-through below 30%"
+      ],
+      "signals": [
+        {
+          "source": "Google Trends",
+          "market": "US",
+          "signal_type": "search",
+          "keyword": "gravel running shoes",
+          "observed_at": "2026-06-19",
+          "url": "https://trends.google.com"
+        },
+        {
+          "source": "RoadTrailRun",
+          "market": "US",
+          "signal_type": "web",
+          "keyword": "gravel running",
+          "observed_at": "2026-06-18",
+          "url": "https://www.roadtrailrun.com"
+        },
+        {
+          "source": "Competitor scan",
+          "market": "CH",
+          "signal_type": "competitor",
+          "keyword": "gravel running shoes",
+          "observed_at": "2026-06-19",
+          "url": "https://www.baechli-bergsport.ch"
+        }
+      ]
+    },
+    {
+      "id": "fastpacking-vests",
+      "context": [
+        "outdoor"
+      ],
+      "name": "Fastpacking Vest Packs",
+      "subtitle": "Hybrid trail-running and hiking packs",
+      "first_observed_market": "US / Nordics",
+      "trend_stage": "growing",
+      "urgency": "act_now",
+      "action": "TEST",
+      "confidence": "medium",
+      "coverage_status": "partially_covered",
+      "composite_score": 0.75,
+      "scores": {
+        "trend": 0.79,
+        "transferability": 0.88,
+        "opportunity": 0.68,
+        "coverage_gap": 0.55
+      },
+      "explainability": {
+        "why_trending": "Fastpacking appears across trail communities, ultralight forums and retailer assortments.",
+        "why_fits_switzerland": "Swiss day tours and hut-to-hut routes reward light, fast and compact carrying systems.",
+        "why_opportunity_now": "The category exists locally but remains under-merchandised as a dedicated use case."
+      },
+      "risks": [
+        {
+          "name": "Retail saturation",
+          "impact": "Medium",
+          "probability": "Medium",
+          "mitigation": "Differentiate with curated premium models rather than generic running vests."
+        },
+        {
+          "name": "Fit complexity",
+          "impact": "Medium",
+          "probability": "High",
+          "mitigation": "Test in-store fitting guidance and size range before scaling."
+        }
+      ],
+      "monitor_triggers": [
+        "Competitors launch dedicated fastpacking landing pages",
+        "Returns due to fit exceed normal pack benchmark",
+        "Search momentum flattens"
+      ],
+      "signals": [
+        {
+          "source": "Reddit",
+          "market": "US",
+          "signal_type": "social",
+          "keyword": "fastpacking vest",
+          "observed_at": "2026-06-17",
+          "url": "https://reddit.com"
+        },
+        {
+          "source": "Google Trends",
+          "market": "SE",
+          "signal_type": "search",
+          "keyword": "fastpacking",
+          "observed_at": "2026-06-19",
+          "url": "https://trends.google.com"
+        },
+        {
+          "source": "Retailer scan",
+          "market": "DE",
+          "signal_type": "marketplace",
+          "keyword": "fastpacking pack",
+          "observed_at": "2026-06-19",
+          "url": "https://www.bergfreunde.de"
+        }
+      ]
+    },
+    {
+      "id": "alpha-direct",
+      "context": [
+        "outdoor"
+      ],
+      "name": "Alpha Direct Midlayers",
+      "subtitle": "Breathable active-insulation layer",
+      "first_observed_market": "Japan / US",
+      "trend_stage": "growing",
+      "urgency": "watch",
+      "action": "WATCH",
+      "confidence": "medium",
+      "coverage_status": "partially_covered",
+      "composite_score": 0.58,
+      "scores": {
+        "trend": 0.72,
+        "transferability": 0.82,
+        "opportunity": 0.45,
+        "coverage_gap": 0.5
+      },
+      "explainability": {
+        "why_trending": "Ultralight and hiking communities continue to discuss active insulation and breathable fleece systems.",
+        "why_fits_switzerland": "The product fits shoulder-season alpine activity but needs strong technical education.",
+        "why_opportunity_now": "Some availability already exists, so the stronger play is supplier conversation and margin validation."
+      },
+      "risks": [
+        {
+          "name": "Margin proof missing",
+          "impact": "Medium",
+          "probability": "High",
+          "mitigation": "Monitor pricing and sell-through before committing to broad assortment."
+        },
+        {
+          "name": "Product education",
+          "impact": "Medium",
+          "probability": "Medium",
+          "mitigation": "Use staff and content education to explain warmth-versus-breathability tradeoff."
+        }
+      ],
+      "monitor_triggers": [
+        "More DACH retailers add house-brand alternatives",
+        "Price compression below premium margin target",
+        "Review sentiment shifts to durability concerns"
+      ],
+      "signals": [
+        {
+          "source": "Ultralight forum",
+          "market": "US",
+          "signal_type": "social",
+          "keyword": "Alpha Direct hoodie",
+          "observed_at": "2026-06-15",
+          "url": "https://reddit.com/r/Ultralight"
+        },
+        {
+          "source": "Brand pages",
+          "market": "JP",
+          "signal_type": "web",
+          "keyword": "Polartec Alpha Direct",
+          "observed_at": "2026-06-16",
+          "url": "https://www.polartec.com"
+        }
+      ]
+    },
+    {
+      "id": "mycelium-membranes",
+      "context": [
+        "outdoor",
+        "cycling"
+      ],
+      "name": "Mycelium Bio-Synthetic Membranes",
+      "subtitle": "Directional material signal",
+      "first_observed_market": "US / EU",
+      "trend_stage": "emerging",
+      "urgency": "watch",
+      "action": "WATCH",
+      "confidence": "low",
+      "coverage_status": "not_relevant",
+      "composite_score": 0.39,
+      "scores": {
+        "trend": 0.68,
+        "transferability": 0.52,
+        "opportunity": 0.18,
+        "coverage_gap": 0.2
+      },
+      "explainability": {
+        "why_trending": "Sustainability and material innovation articles mention mycelium and bio-synthetic performance textiles.",
+        "why_fits_switzerland": "Sustainability resonates with Swiss outdoor buyers, but commercial outdoor SKUs are not yet mature.",
+        "why_opportunity_now": "This is a watch item only: buzz exists, but there is not enough orderable product evidence."
+      },
+      "risks": [
+        {
+          "name": "No retail SKU proof",
+          "impact": "High",
+          "probability": "High",
+          "mitigation": "Do not buy inventory; track supplier launches and trade-show proof."
+        },
+        {
+          "name": "Performance uncertainty",
+          "impact": "High",
+          "probability": "Medium",
+          "mitigation": "Require waterproofness and durability validation before supplier contact."
+        }
+      ],
+      "monitor_triggers": [
+        "Named retail-ready SKU appears",
+        "Material is used by a recognized outdoor brand",
+        "Independent lab or review evidence confirms performance"
+      ],
+      "signals": [
+        {
+          "source": "Material trend article",
+          "market": "EU",
+          "signal_type": "web",
+          "keyword": "mycelium membrane",
+          "observed_at": "2026-06-10",
+          "url": "https://example.com/material-trends"
+        },
+        {
+          "source": "Trade fair notes",
+          "market": "US",
+          "signal_type": "manual",
+          "keyword": "bio synthetic textile",
+          "observed_at": "2026-06-12",
+          "url": "https://example.com/trade-fair"
+        }
+      ]
+    },
+    {
+      "id": "cargo-bikepacking",
+      "context": [
+        "cycling"
+      ],
+      "name": "Cargo Bikepacking Bags",
+      "subtitle": "Urban-weekend modular bag system",
+      "first_observed_market": "NL / DE",
+      "trend_stage": "growing",
+      "urgency": "act_now",
+      "action": "TEST",
+      "confidence": "medium",
+      "coverage_status": "absent",
+      "composite_score": 0.78,
+      "scores": {
+        "trend": 0.76,
+        "transferability": 0.85,
+        "opportunity": 0.8,
+        "coverage_gap": 0.88
+      },
+      "explainability": {
+        "why_trending": "Cargo and utility bike communities are combining commuting and weekend micro-adventure gear.",
+        "why_fits_switzerland": "Swiss urban cycling and weekend outdoor habits make modular bags a credible crossover.",
+        "why_opportunity_now": "Boutique cycling shelves are not yet saturated, leaving room for curated modular systems."
+      },
+      "risks": [
+        {
+          "name": "Niche use case",
+          "impact": "Medium",
+          "probability": "Medium",
+          "mitigation": "Start with modular bestsellers and show use-case bundles."
+        },
+        {
+          "name": "Price sensitivity",
+          "impact": "Medium",
+          "probability": "Medium",
+          "mitigation": "Offer one premium and one mid-price option."
+        }
+      ],
+      "monitor_triggers": [
+        "Veloplus or Galaxus launch similar bundles",
+        "Social interest stays urban-only with no outdoor crossover",
+        "Supplier lead times exceed seasonal window"
+      ],
+      "signals": [
+        {
+          "source": "Google Trends",
+          "market": "DE",
+          "signal_type": "search",
+          "keyword": "cargo bikepacking",
+          "observed_at": "2026-06-19",
+          "url": "https://trends.google.com"
+        },
+        {
+          "source": "Marketplace scan",
+          "market": "NL",
+          "signal_type": "marketplace",
+          "keyword": "modular bike bags",
+          "observed_at": "2026-06-18",
+          "url": "https://example.com/marketplace"
+        }
+      ]
+    }
+  ]
+}
